@@ -1,0 +1,25 @@
+Problem Statement:
+Develop a Java application to generate sales bill for selling LED lamp. Create a package billings and Create a class SaleBill with the following
+members: Customer no., customer name, powerrating,  quantity, customertype
+(i.e user or vendor). Declare constructors to pass the initial attributes.
+Declare and define the following member functions
+	getData() - to get attributes from the user
+	printData() - to print the data
+	computeBillAmount() - to calculate and print the bill amount
+Compute the bill amount using the following rates.
+
+If the customertype is user, calculate the amount to be paid as follows:
+	First 5 units - Rs. 250 per unit
+	6-10 units - Rs. 230 per unit
+	11 - 15 units - Rs. 215 per unit
+	>15 units - Rs. 200 per unit
+If the type is vendor, calculate the amount to be paid as follows:
+	First 5 units - Rs. 230 per unit
+	6-10 units - Rs. 210 per unit
+	11 - 15 units - Rs. 195 per unit
+	>15 units - Rs. 180 per unit
+	
+Create a class Calculation1 with main function. Create the object of EBill class, get the data
+and display the bill amount by calling computeBillAmount() function.
+
+
